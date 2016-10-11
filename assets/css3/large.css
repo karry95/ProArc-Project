@@ -1,0 +1,12 @@
+div#testdiv{
+    /*width:1200px;*/
+    /*margin:0 auto;*/
+    /*height: 100px;*/
+    /*background: blue;*/
+    /*font-size: 27px;*/
+    display:block;
+}
+
+div#testdiv1{
+    display:none;
+}

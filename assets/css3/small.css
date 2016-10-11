@@ -1,0 +1,13 @@
+div#testdiv{
+    /*width:500px;*/
+    /*margin:0 auto;*/
+    /*height: 100px;*/
+    /*background: #D5E600;*/
+    /*font-size: 27px;*/
+    
+    display:none;
+}
+
+div#testdiv1{
+    display:block;
+}

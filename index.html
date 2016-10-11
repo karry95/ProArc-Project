@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <title>ProArc</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- CSS -->
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=PT+Sans:400,700'>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/prettyPhoto/css/prettyPhoto.css">
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/css/social-icons.css">
+    <link rel="stylesheet" href="assets/css/video-style.css">
+
+
+    <!-- Login Form Links-->
+    
+      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    
+   
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+    <!-- Favicon and touch icons -->
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+    
+    <!-- Login -->
+    <script type="text/javascript" src="assets/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.leanModal.min.js"></script>
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" />
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css" />
+    
+    
+    <script src="jquery.js"></script>
+    <script src="mediaelement-and-player.min.js"></script>
+    <link rel="stylesheet" href="mediaelementplayer.css" />
+    
+    <!-- Sign Up Form -->
+    <script type="text/javascript" src="SignUpValidation.js"></script>
+    
+    
+
+</head>
+
+<body>
+    
+   
+
+    <!-- Header -->
+    <div class="container">
+        <div class="header row">
+            <div class="logo span4">
+                <h2><a href="">ProArc</a></h2>
+                
+            </div>
+            <div class="tel-skype span8">
+                <div class="pricing-table-sign-up">
+                  	<a id="modal_trigger" href="#modal" class="btn btn_red">Login</a>
+                </div>
+                 <!-- Modal -->
+  
+            </div>
+        </div>
+    </div>
+    
+ <!-- Login Btn -->
+ 
+
+
+	<div id="modal" class="popupContainer" style="display:none;">
+		<header class="popupHeader">
+			<span class="header_title">Login</span>
+			<span class="modal_close"><i class="fa fa-times"></i></span>
+		</header>
+		
+		<section class="popupBody">
+			<!-- Social Login -->
+			<div class="social_login">
+			    
+			    
+			    
+			    
+				<form action="connectivity-sign-in.php" method="POST">
+					<input type="text" name="user" placeholder="Username" required="required"/><br>
+                    <input type="password" name="pass" placeholder="Password" required="required"/><br>
+                    
+
+					<div class="checkbox">
+						<input id="remember" type="checkbox" />
+						<label for="remember">Remember me on this computer</label>
+					</div>
+
+					<div class="action_btns">
+						
+						<div id="Login_btn" class="one_half last"><input type="submit" name="login" value="Login" class="btn btn_red"/></div>
+					</div>
+				</form>
+
+				
+			</div>
+
+		
+			
+			    </section>
+			</div>
+		
+	
+
+
+<script type="text/javascript">
+	$("#modal_trigger").leanModal({top : 200, overlay : 0.6, closeButton: ".modal_close" });
+
+	$(function(){
+		// Calling Login Form
+		$("#login_form").click(function(){
+			$(".social_login").hide();
+			$(".user_login").show();
+			return false;
+		});
+
+	
+		// Going back to Social Forms
+		$(".back_btn").click(function(){
+			$(".user_login").hide();
+			$(".user_register").hide();
+			$(".social_login").show();
+			$(".header_title").text('Login');
+			return false;
+		});
+
+	})
+</script>   
+
+<!-- Login Btn End -->
+   
+
+
+    <!-- Product Showcase -->
+    <div class="product-showcase">
+        <div class="product-showcase-pattern">
+            <div class="container">
+                
+                
+                <div class="row">
+                    <div class="span12 product-background">
+                        <div class="row">
+                            <div class="span6 slideshow-video">
+                                <!--<iframe src="http://www.youtube.com/embed/u5X5cV-4LRo?rel=0" frameborder="0" allowfullscreen></iframe>-->
+                                  <!--<embed id="videob" src="https://www.youtube.com/v/vD0vHZxAmso" frameborder="0" allowfullscreen>-->
+                                 
+                            </div>
+                            <div class="span6 product-title">
+                                <h1 id="title-ProArc"><strong>ProArc</strong></h1>
+                                
+
+                                <div class="product-description">
+                                    <h3>Project Management made easy</h3>
+                                    <p>discipline of planning, organizing, securing, managing, leading, and controlling resources to achieve specific goals.</p>
+                                    <p>A project is a temporary endeavor with a defined beginning and end (usually time-constrained, and often constrained by funding or deliverables), undertaken to meet unique goals and objectives,
+                                       typically to bring about beneficial change or added value. The temporary nature of projects stands in contrast with ongoing business 
+                                       operations.</p>
+                                </div>
+                                <div class="call-to-action"><a href="" class="buy-it-now"><i class="icon-shopping-cart"></i>Sign Up Now</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Content -->
+    <div class="container">
+
+
+
+        <div class="row">
+            <!-- pricing tables -->
+            <div class="span12 pricing">
+                <h3>Pricing</h3>
+                <div class="tables-container">
+                    <!-- table 1 -->
+                            <div class="pricing-table">
+                            <div class="pricing-table-header">
+                                <h4>Project Manager</h4>
+                                <h5>Free</h5>
+                            </div>
+                            <div class="pricing-table-space"></div>
+                            <div class="pricing-table-text">
+                                <p><strong>This is a perfect choice for Project Managers wanting to manage small or big projects.</strong></p>
+                            </div>
+                            <div class="pricing-table-features">
+                                <p align="center">
+                                   <strong>Join Now!</strong> <br>
+                                   <strong>Easy To Use</strong> <br>
+                                   <strong>And</strong> <br>
+                                   <strong>It's Free For </strong> <br>
+                                   <strong>Project Mangers</strong> 
+                                </p>
+                            </div>
+                            <div class="">
+                                
+	                        <a id="modal_t" href="#modalll" class="btn">Sign Up</a>
+
+	                        <div id="modalll" class="popupContainer" style="display:none;">
+		                    <header class="popupHeader">
+			                <span class="header_title" style="color:black;">Sign Up</span>
+			                <span class="modal_close"><i class="fa fa-times"></i></span>
+		                    </header>
+		
+		                    <section class="popupBody">
+			                
+			
+			                <div class="social_login">
+			                    
+			                    <!-- Sign Up Form -->
+				            <form id="registration" action="connectivity-sign-up.php" method="POST" >
+					        <label for="name" style="color:black;">Full Name</label>
+					        <input type="text" name="name" required="required"/>
+					        <br />
+					
+        					<label for="user" style="color:black;">Username</label>
+        					<input type="text" name="user" required="required"/>
+        					<br />
+        					
+        					<label for="address" style="color:black;">Address</label>
+        					<input type="text" name="address" required="required"/>
+        					<br />
+        					
+        					<label for="county" style="color:black;">County</label>
+        					<select name="county" required="required">
+        					<option selected="" value="Default" required="required">(Please select a County)</option>
+        					<option value="Antrim">Antrim</option>
+                            <option value="Armagh">Armagh</option>
+                            <option value="Carlow">Carlow</option>
+                            <option value="Cavan">Cavan</option>
+                            <option value="Clare">Clare</option>
+                            <option value="Cork">Cork</option>
+                            <option value="Derry">Derry</option>
+                            <option value="Donegal">Donegal</option>
+                            <option value="Down">Down</option>
+                            <option value="Dublin">Dublin</option>
+                            <option value="Fermanagh">Fermanagh</option>
+                            <option value="Galway">Galway</option>
+                            <option value="Kerry">Kerry</option>
+                            <option value="Kildare">Kildare</option>
+                            <option value="Kilkenny">Kilkenny</option>
+                            <option value="Laois">Laois</option>
+                            <option value="Leitrim">Leitrim</option>
+                            <option value="Limerick">Limerick</option>
+                            <option value="Longford">Longford</option>
+                            <option value="Louth">Louth</option>
+                            <option value="Mayo">Mayo</option>
+                            <option value="Meath">Meath</option>
+                            <option value="Monaghan">Monaghan</option>
+                            <option value="Offaly">Offaly</option>
+                            <option value="Roscommon">Roscommon</option>
+                            <option value="Sligo">Sligo</option>
+                            <option value="Tipperary">Tipperary</option>
+                            <option value="Tyrone">Tyrone</option>
+                            <option value="Waterford">Waterford</option>
+                            <option value="Westmeath">Westmeath</option>
+                            <option value="Wexford">Wexford</option>
+                            <option value="Wicklow">Wicklow</option>
+        					</select>
+    					
+    
+        					<label for="email" style="color:black;">Email Address</label>
+        					<input type="email" name="email" required="required"/>
+        					<br />
+        					
+        					<label for="role" style="color:black;">Job Role</label>  
+                            <label><input type="checkbox" name="Project_Manager" value="1"> <a>Project Manager</a><br></label>
+                            <br />
+        
+        					<label for="pass" style="color:black;">Password</label>
+        					<input type="password" name="pass" required="required"/>
+        					<br />
+        					
+
+
+					        <div class="action_btns">
+					        	    
+						        
+						    <input type="submit" name="submit" value="Submit" class="btn btn_red"  /> 
+						    
+				        	</div>
+				            </form>
+			                </div>
+
+		                	<!-- Username & Password Login form -->
+
+
+			                <!-- Register Form -->
+			
+		                    </section>
+	                        </div>
+	                        </div>
+                           
+                        </div>
+                        
+                        <script type="text/javascript">
+                        	$("#modal_t").leanModal({top : 200, overlay : 0.6, closeButton: ".modal_close" });
+
+	                        $(function(){
+
+
+                    		// Calling Register Form
+                    		$("#register_form").click(function(){
+                    			$(".social_login").hide();
+                    			$(".user_register").show();
+                    			$(".header_title").text('Register');
+                    			return false;
+                    		});
+                    
+                    
+                    
+                    	    })
+                        </script>
+                        <!-- END # MODAL LOGIN -->
+                        
+                        
+                    <!-- table 2 -->
+                    <div class="pricing-table pricing-table-highlighted">
+                            <div class="pricing-table-header">
+                                <h4>Tradesmen</h4>
+                                <h5>€50 for 3 months</h5>
+                            </div>
+                            <div class="pricing-table-space"></div>
+                            <div class="pricing-table-text">
+                                <p><strong>This is a perfect choice for Tradesmen wanting to find work on projects.</strong></p>
+                            </div>
+                            <div class="pricing-table-features">
+                                <p align="center">
+                                    <strong></strong><br>
+                                   <strong>Join</strong><br>
+                                   <strong>Today!</strong> <br>
+                                   <strong></strong><br>
+                                   <strong></strong>
+                                   
+                                </p>
+                            </div>
+                            <div class="">
+                                
+	                        <a id="modal_" href="#modall" class="btn">Sign Up</a>
+
+	                        <div id="modall" class="popupContainer" style="display:none;">
+		                    <header class="popupHeader">
+			                <span class="header_title" style="color:black;">Sign Up</span>
+			                <span class="modal_close"><i class="fa fa-times"></i></span>
+		                    </header>
+		
+		                    <section class="popupBody">
+			                <!-- Sign Up Form -->
+			
+			                <div class="social_login">
+				            <form name="registration" action="connectivity-sign-up.php" method="POST">
+					        <label for="name" style="color:black;">Full Name</label>
+					        <input type="text" name="name" required="required"/>
+					        <br />
+					
+        					<label for="user" style="color:black;">Username</label>
+        					<input type="text" name="user" required="required"/>
+        					<br />
+        					
+        					<label for="address" style="color:black;">Address</label>
+        					<input type="text" name="address" required="required"/>
+        					<br />
+        					
+        					<label for="county" style="color:black;">County</label>
+        					<select name="county" required="required">
+        					<option selected="" value="Default">(Please select a County)</option>
+        					<option value="Antrim">Antrim</option>
+                            <option value="Armagh">Armagh</option>
+                            <option value="Carlow">Carlow</option>
+                            <option value="Cavan">Cavan</option>
+                            <option value="Clare">Clare</option>
+                            <option value="Cork">Cork</option>
+                            <option value="Derry">Derry</option>
+                            <option value="Donegal">Donegal</option>
+                            <option value="Down">Down</option>
+                            <option value="Dublin">Dublin</option>
+                            <option value="Fermanagh">Fermanagh</option>
+                            <option value="Galway">Galway</option>
+                            <option value="Kerry">Kerry</option>
+                            <option value="Kildare">Kildare</option>
+                            <option value="Kilkenny">Kilkenny</option>
+                            <option value="Laois">Laois</option>
+                            <option value="Leitrim">Leitrim</option>
+                            <option value="Limerick">Limerick</option>
+                            <option value="Longford">Longford</option>
+                            <option value="Louth">Louth</option>
+                            <option value="Mayo">Mayo</option>
+                            <option value="Meath">Meath</option>
+                            <option value="Monaghan">Monaghan</option>
+                            <option value="Offaly">Offaly</option>
+                            <option value="Roscommon">Roscommon</option>
+                            <option value="Sligo">Sligo</option>
+                            <option value="Tipperary">Tipperary</option>
+                            <option value="Tyrone">Tyrone</option>
+                            <option value="Waterford">Waterford</option>
+                            <option value="Westmeath">Westmeath</option>
+                            <option value="Wexford">Wexford</option>
+                            <option value="Wicklow">Wicklow</option>
+        					</select>
+    					
+    
+        					<label for="email" style="color:black;">Email Address</label>
+        					<input type="email" name="email" required="required"/>
+        					<br />
+        					
+        					<label for="role" style="color:black;">Job Role</label>  
+                            
+                            <label><input type="checkbox" name="Electrician" value="2"> <a>Electrician</a><br></label>
+                            <label><input type="checkbox" name="Plumber" value="3"> <a>Plumber</a><br></label>
+                            <label><input type="checkbox" name="Carpenter" value="4"> <a>Carpenter</a><br></label>
+                            <label><input type="checkbox" name="Plasterer" value="5"> <a>Plasterer</a><br></label>
+                            <label><input type="checkbox" name="Builder" value="6"> <a>Builder</a><br></label>
+                            <label><input type="checkbox" name="Painter" value="7"> <a>Painter</a><br></label>
+                            <label><input type="text" name="Other" placeholder="Other"/></label>
+                            <br />
+        
+        					<label for="pass" style="color:black;">Password</label>
+        					<input type="password" name="pass" required="required"/>
+        					<br />
+
+
+					        <div class="action_btns">
+					        	
+						    <input type="submit" name="submit" value="Start Free Trial" class="btn btn-lg btn-success" /> 
+						    
+				        	</div>
+				            </form>
+			                </div>
+
+		                	<!-- Username & Password Login form -->
+
+
+			                <!-- Register Form -->
+			
+		                    </section>
+	                        </div>
+	                        </div>
+                           
+                        </div>
+                        
+                        <script type="text/javascript">
+                        	$("#modal_").leanModal({top : 200, overlay : 0.6, closeButton: ".modal_close" });
+
+	                        $(function(){
+
+
+                    		// Calling Register Form
+                    		$("#register_form").click(function(){
+                    			$(".social_login").hide();
+                    			$(".user_register").show();
+                    			$(".header_title").text('Register');
+                    			return false;
+                    		});
+                    
+                    
+                    
+                    	    })
+                        </script>
+                        <!-- END # MODAL LOGIN -->
+    
+                    <!-- table 3 -->
+                    <div class="pricing-table">
+                            <div class="pricing-table-header">
+                                <h4>Tradesmen</h4>
+                                <h5>€20/month</h5>
+                            </div>
+                            <div class="pricing-table-space"></div>
+                            <div class="pricing-table-text">
+                                <p><strong>This is a perfect choice for Tradesmen wanting to find work on projects.</strong></p>
+                            </div>
+                            <div class="pricing-table-features">
+                                <p align="center">
+                                    <strong></strong><br>
+                                   <strong>Join</strong><br>
+                                   <strong>Today!</strong> <br>
+                                   <strong></strong><br>
+                                   <strong></strong>
+                            </div>
+                            <div class="">
+                                
+	                        <a id="modal_tr" href="#modallll" class="btn">Sign Up</a>
+
+	                        <div id="modallll" class="popupContainer" style="display:none;">
+		                    <header class="popupHeader">
+			                <span class="header_title" style="color:black;">Sign Up</span>
+			                <span class="modal_close"><i class="fa fa-times"></i></span>
+		                    </header>
+		
+		                    <section class="popupBody">
+			                <!-- Sign Up Form -->
+			
+			                <div class="social_login">
+			                    
+				            <form name="registration" action="connectivity-sign-up.php" method="POST">
+				                
+				                
+					        <label for="name" style="color:black;">Full Name</label>
+					        <input type="text" name="name" required="required" placeholder="Full Name"/>
+					        <br />
+					
+        					<label for="user" style="color:black;">Username</label>
+        					<input type="text" name="user" required="required" placeholder="Username"/>
+        					<br />
+        					
+        					<label for="address" style="color:black;">Address</label>
+        					<input type="text" name="address" required="required" placeholder="Address"/>
+        					<br />
+        					
+        					
+        					
+        					<label for="county" style="color:black;">County</label>
+        					<select name="county" required="required">
+        					<option selected="" value="Default">(Please select a County)</option>
+        					<option value="Antrim">Antrim</option>
+                            <option value="Armagh">Armagh</option>
+                            <option value="Carlow">Carlow</option>
+                            <option value="Cavan">Cavan</option>
+                            <option value="Clare">Clare</option>
+                            <option value="Cork">Cork</option>
+                            <option value="Derry">Derry</option>
+                            <option value="Donegal">Donegal</option>
+                            <option value="Down">Down</option>
+                            <option value="Dublin">Dublin</option>
+                            <option value="Fermanagh">Fermanagh</option>
+                            <option value="Galway">Galway</option>
+                            <option value="Kerry">Kerry</option>
+                            <option value="Kildare">Kildare</option>
+                            <option value="Kilkenny">Kilkenny</option>
+                            <option value="Laois">Laois</option>
+                            <option value="Leitrim">Leitrim</option>
+                            <option value="Limerick">Limerick</option>
+                            <option value="Longford">Longford</option>
+                            <option value="Louth">Louth</option>
+                            <option value="Mayo">Mayo</option>
+                            <option value="Meath">Meath</option>
+                            <option value="Monaghan">Monaghan</option>
+                            <option value="Offaly">Offaly</option>
+                            <option value="Roscommon">Roscommon</option>
+                            <option value="Sligo">Sligo</option>
+                            <option value="Tipperary">Tipperary</option>
+                            <option value="Tyrone">Tyrone</option>
+                            <option value="Waterford">Waterford</option>
+                            <option value="Westmeath">Westmeath</option>
+                            <option value="Wexford">Wexford</option>
+                            <option value="Wicklow">Wicklow</option>
+        					</select>
+    					
+    
+        					<label for="email" style="color:black;">Email Address</label>
+        					<input type="email" name="email" required="required" placeholder="Email"/>
+        					<br />
+        					
+        					<!-- Checkbox for user selecting job role -->
+        					<label for="role" style="color:black;">Job Role</label>  
+                            
+                            
+                            <label><input type="checkbox" name="Electrician" value="2"> <a>Electrician</a><br></label>
+                            <label><input type="checkbox" name="Plumber" value="3"> <a>Plumber</a><br></label>
+                            <label><input type="checkbox" name="Carpenter" value="4"> <a>Carpenter</a><br></label>
+                            <label><input type="checkbox" name="Plasterer" value="5"> <a>Plasterer</a><br></label>
+                            <label><input type="checkbox" name="Builder" value="6"> <a>Builder</a><br></label>
+                            <label><input type="checkbox" name="Painter" value="7"> <a>Painter</a><br></label>
+                            <label><input type="text" name="Other" placeholder="Other"/></label>
+                            
+                            <!--<option value="PM">Project Manager</option> -->
+                            <!--<option value="EL">Electrician</option>  -->
+                            <!--<option value="PL">Plumber</option>  -->
+                            <!--<option value="CA">Carpenter</option>  -->
+                            <!--<option value="PA">Plasterer</option>-->
+                            <!--<option value="BU">Builder</option>-->
+                            <!--<option value="PAN">Painter</option>-->
+                            <!--</select>-->
+                            <br />
+        
+        					<label for="pass" style="color:black;">Password</label>
+        					<input type="password" name="pass" required="required" placeholder="Password"/>
+        					<br />
+        					
+
+
+					        <div class="action_btns">
+					        	
+						    <input type="submit" name="submit" value="Start Free Trial" class="btn btn-lg btn-success" /> 
+						    </div>
+				        	</div>
+				            </form>
+			                </div>
+
+		                	<!-- Username & Password Login form -->
+
+
+			                <!-- Register Form -->
+			
+		                    </section>
+	                        </div>
+	                        </div>
+                           
+                        </div>
+                        
+                        <script type="text/javascript">
+                        	$("#modal_tr").leanModal({top : 200, overlay : 0.6, closeButton: ".modal_close" });
+
+	                        $(function(){
+
+
+                    		// Calling Register Form
+                    		$("#register_form").click(function(){
+                    			$(".social_login").hide();
+                    			$(".user_register").show();
+                    			$(".header_title").text('Register');
+                    			return false;
+                    		});
+                    
+                    
+                    
+                    	    })
+                        </script>
+                        <!-- END # MODAL LOGIN -->
+                        
+                        
+                        
+                        
+                </div>
+            </div>
+        </div>
+        <!-- end row -->
+
+        
+
+    </div>
+    <!-- end container -->
+
+    <footer>
+        <div class="container">
+
+            
+            <!-- end row -->
+            <div class="row">
+                <div class="span12 copyright">
+                    <p>Copyright &copy; 2016 - ProArc - by Group 3</p>
+                </div>
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </footer>
+
+
+    <!-- Javascript -->
+    <script src="assets/js/jquery-1.8.2.min.js"></script>
+    <script src="assets/js/jquery.backstretch.min.js"></script>
+    <script src="assets/js/jquery.tweet.js"></script>
+    <script src="assets/prettyPhoto/js/jquery.prettyPhoto.js"></script>
+    <script src="assets/js/video-scripts.js"></script>
+
+</body>
+
+</html>
